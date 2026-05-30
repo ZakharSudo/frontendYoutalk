@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTalk — Блог о психотерапии</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="index.html" class="header__logo">
+                <div class="header__logo-img" style="background-color:#E3B873; width:120px; height:40px; border-radius:8px; display:flex; align-items:center; justify-content:center; color:white; font-weight:bold;">YouTalk</div>
+            </a>
+            <button class="header__burger">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link nav__link--active">Блог</a></li>
+                    <li><a href="#" class="nav__link">О нас</a></li>
+                    <li><a href="#" class="nav__link">Подкасты</a></li>
+                    <li><a href="#" class="nav__link">Вебинары</a></li>
+                    <li><a href="#" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="header__button">Запись</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Блог о психотерапии и самопомощи</h1>
+            <section class="tags">
+                <ul class="tags__list">
+                    <li><a href="#" class="tags__link tags__link--active">Все статьи</a></li>
+                    <li><a href="#" class="tags__link">Психотерапия</a></li>
+                    <li><a href="#" class="tags__link">Самопомощь</a></li>
+                    <li><a href="#" class="tags__link">Отношения</a></li>
+                    <li><a href="#" class="tags__link">Личные границы</a></li>
+                </ul>
+            </section>
+            <section class="blog">
+                <div class="blog__grid">
+                    <article class="blog-card">
+                        <a href="article.html" style="text-decoration:none; color:inherit;">
+                            <div class="blog-card__image">📷 Фото</div>
+                            <div class="blog-card__content">
+                                <span class="blog-card__tag">Самопомощь</span>
+                                <h3 class="blog-card__title">10 техник для снижения тревожности</h3>
+                                <p class="blog-card__description">Практические упражнения, которые помогут справиться с тревогой.</p>
+                                <time class="blog-card__date">15 января 2024</time>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="blog-card">
+                        <a href="article.html" style="text-decoration:none; color:inherit;">
+                            <div class="blog-card__image">📷 Фото</div>
+                            <div class="blog-card__content">
+                                <span class="blog-card__tag">Отношения</span>
+                                <h3 class="blog-card__title">Как строить здоровые отношения</h3>
+                                <p class="blog-card__description">Советы психолога о том, как создать крепкие отношения.</p>
+                                <time class="blog-card__date">10 января 2024</time>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="blog-card">
+                        <a href="article.html" style="text-decoration:none; color:inherit;">
+                            <div class="blog-card__image">📷 Фото</div>
+                            <div class="blog-card__content">
+                                <span class="blog-card__tag">Личные границы</span>
+                                <h3 class="blog-card__title">Личные границы: как их отстаивать</h3>
+                                <p class="blog-card__description">Почему важно уметь говорить "нет".</p>
+                                <time class="blog-card__date">5 января 2024</time>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="blog__button">
+                    <button class="button button--primary">Загрузить ещё</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__columns">
+                <div class="footer__column">
+                    <h4>О проекте</h4>
+                    <ul class="footer__list"><li><a href="#">О нас</a></li><li><a href="#">Команда</a></li><li><a href="#">Вакансии</a></li></ul>
+                </div>
+                <div class="footer__column">
+                    <h4>Читателям</h4>
+                    <ul class="footer__list"><li><a href="index.html">Все статьи</a></li><li><a href="#">Подкасты</a></li><li><a href="#">Вебинары</a></li></ul>
+                </div>
+                <div class="footer__column">
+                    <h4>Помощь</h4>
+                    <ul class="footer__list"><li><a href="#">Частые вопросы</a></li><li><a href="#">Поддержка</a></li><li><a href="#">Контакты</a></li></ul>
+                </div>
+                <div class="footer__column">
+                    <h4>Подписка</h4>
+                    <p>Получайте новые статьи на почту</p>
+                    <form class="footer__subscribe">
+                        <input type="email" class="footer__input" placeholder="Ваш email">
+                        <button type="submit" class="button button--primary">→</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2025 YouTalk. Все права защищены.</p>
+                <ul class="footer__bottom-links">
+                    <li><a href="#">Пользовательское соглашение</a></li>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
